@@ -18,5 +18,21 @@ cd "$TMP"
 echo "Downloading $LATEST_URL" >&2
 curl -fL "$LATEST_URL" -o "$ASSET"
 unzip -q "$ASSET"
-echo "Opening app..." >&2
-open "GmailDesktop.app"
+
+# Remove any existing installs (quit first if running)
+echo "Cleaning up previous installs..." >&2
+osascript -e 'tell application "GmailDesktop" to quit' >/dev/null 2>&1 || true
+rm -rf "/Applications/GmailDesktop.app" "$HOME/Applications/GmailDesktop.app" 2>/dev/null || true
+
+# Install to /Applications if writable, otherwise to ~/Applications
+DEST="/Applications"
+if [ ! -w "$DEST" ]; then
+  DEST="$HOME/Applications"
+  mkdir -p "$DEST"
+fi
+echo "Installing to $DEST" >&2
+rm -rf "$DEST/GmailDesktop.app"
+cp -R "GmailDesktop.app" "$DEST/"
+
+echo "Launching app..." >&2
+open "$DEST/GmailDesktop.app"
