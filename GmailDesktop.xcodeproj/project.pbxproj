@@ -7,87 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0287D725393F0FE9FBF61243 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A9580E44A6C51A48A1A49 /* NotificationManager.swift */; };
-		3E05AA4852946AD8CD581F36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDFA524E49CC35C939478DF /* Cocoa.framework */; };
-		5103A84CE1C7C958D21729AA /* GmailWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E8F3454A8034394B95DA5 /* GmailWebView.swift */; };
-		5FEC891881DC430B6F80E02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F8C825C18025F38EB3E9C0 /* Assets.xcassets */; };
-		8A2BB98517E7CC7AC208AE72 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8FD0D69B66613B68DEBCF1 /* WebKit.framework */; };
-		966160C38FFB1BB8231A2093 /* GmailDesktopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F56EF9F7150D557A8F40D4 /* GmailDesktopApp.swift */; };
-		D4627C6AFB78407075D2D141 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2FDF7BC63ED94D6D5CB18F /* ContentView.swift */; };
+		1814F6B1BE150B31BBE4E865 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE028E0B8535B8576A2E8AD /* BluetoothManager.swift */; };
+		32CA428DCDCBE7E0A9BD44FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63273303C2AED9E6CDEAC6C1 /* Assets.xcassets */; };
+		49C17B2A1F75F507F20430F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F03193DE02505770A9956F /* Cocoa.framework */; };
+		4ADA5F69C18B05A2A9D9FE5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441E040FDE6597A948CF4D /* ContentView.swift */; };
+		5031B5105595A2326CF7C8F4 /* GmailWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F74C74F2F77DFDF5F813 /* GmailWebView.swift */; };
+		5F2B2EF8111EC1CCCDFA0F2D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A59D291823AACBE16BF87F9 /* CoreBluetooth.framework */; };
+		AB7A973906E471AD5B2CD886 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95F0E6E957ED990315FD96F /* AppState.swift */; };
+		C7D544A40B77EAFF1A406064 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926F504EE9639BFA597B81C /* NotificationManager.swift */; };
+		DA4C7FB536D1A2682F732697 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88156ED0C3C1ABC1F464D3DC /* WebKit.framework */; };
+		F0A4748A461C7CD05459DF5A /* GmailDesktopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A9D1511BECB24B7A212331 /* GmailDesktopApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09F8C825C18025F38EB3E9C0 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0F8FD0D69B66613B68DEBCF1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		32F56EF9F7150D557A8F40D4 /* GmailDesktopApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GmailDesktopApp.swift; sourceTree = "<group>"; };
-		55737FD6A6E0D0C78AC64BCE /* GmailDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GmailDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		780E8F3454A8034394B95DA5 /* GmailWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GmailWebView.swift; sourceTree = "<group>"; };
-		9C1A9580E44A6C51A48A1A49 /* NotificationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
-		9EDFA524E49CC35C939478DF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		FF2FDF7BC63ED94D6D5CB18F /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A59D291823AACBE16BF87F9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		21F03193DE02505770A9956F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		25F7F74C74F2F77DFDF5F813 /* GmailWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GmailWebView.swift; sourceTree = "<group>"; };
+		5872475C2B3A856679510874 /* GmailDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GmailDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A441E040FDE6597A948CF4D /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63273303C2AED9E6CDEAC6C1 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88156ED0C3C1ABC1F464D3DC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8DE028E0B8535B8576A2E8AD /* BluetoothManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		E926F504EE9639BFA597B81C /* NotificationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		E95F0E6E957ED990315FD96F /* AppState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F9A9D1511BECB24B7A212331 /* GmailDesktopApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GmailDesktopApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D48F6FB441D5E9B93C24EF43 /* Frameworks */ = {
+		610352C8584ACCEE2FD8293F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E05AA4852946AD8CD581F36 /* Cocoa.framework in Frameworks */,
-				8A2BB98517E7CC7AC208AE72 /* WebKit.framework in Frameworks */,
+				49C17B2A1F75F507F20430F0 /* Cocoa.framework in Frameworks */,
+				DA4C7FB536D1A2682F732697 /* WebKit.framework in Frameworks */,
+				5F2B2EF8111EC1CCCDFA0F2D /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E74BB7CEDFBA8CFE3CFC92A /* OS X */ = {
+		196B226E9130B5E8608AD738 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9EDFA524E49CC35C939478DF /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
-		85436861B54AC865FF9C9E3B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4E74BB7CEDFBA8CFE3CFC92A /* OS X */,
-				0F8FD0D69B66613B68DEBCF1 /* WebKit.framework */,
+				63463A02E743F4CC83C04B1B /* OS X */,
+				88156ED0C3C1ABC1F464D3DC /* WebKit.framework */,
+				0A59D291823AACBE16BF87F9 /* CoreBluetooth.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		97695A15576D499EF7260258 /* Products */ = {
+		63463A02E743F4CC83C04B1B /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				55737FD6A6E0D0C78AC64BCE /* GmailDesktop.app */,
+				21F03193DE02505770A9956F /* Cocoa.framework */,
 			);
-			name = Products;
+			name = "OS X";
 			sourceTree = "<group>";
 		};
-		F961E0A2DFE639F4A1258BCA = {
+		7ADEDDAA86A81F2298874C67 = {
 			isa = PBXGroup;
 			children = (
-				97695A15576D499EF7260258 /* Products */,
-				85436861B54AC865FF9C9E3B /* Frameworks */,
-				32F56EF9F7150D557A8F40D4 /* GmailDesktopApp.swift */,
-				FF2FDF7BC63ED94D6D5CB18F /* ContentView.swift */,
-				780E8F3454A8034394B95DA5 /* GmailWebView.swift */,
-				9C1A9580E44A6C51A48A1A49 /* NotificationManager.swift */,
-				09F8C825C18025F38EB3E9C0 /* Assets.xcassets */,
+				7E9AF2754019C75C1C3A5402 /* Products */,
+				196B226E9130B5E8608AD738 /* Frameworks */,
+				F9A9D1511BECB24B7A212331 /* GmailDesktopApp.swift */,
+				5A441E040FDE6597A948CF4D /* ContentView.swift */,
+				25F7F74C74F2F77DFDF5F813 /* GmailWebView.swift */,
+				E926F504EE9639BFA597B81C /* NotificationManager.swift */,
+				8DE028E0B8535B8576A2E8AD /* BluetoothManager.swift */,
+				E95F0E6E957ED990315FD96F /* AppState.swift */,
+				63273303C2AED9E6CDEAC6C1 /* Assets.xcassets */,
 			);
+			sourceTree = "<group>";
+		};
+		7E9AF2754019C75C1C3A5402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5872475C2B3A856679510874 /* GmailDesktop.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21EAF8B8C88D386F58EB0595 /* GmailDesktop */ = {
+		0AEFE88CC26CEA6486109655 /* GmailDesktop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E489B37BABE0918AC19360 /* Build configuration list for PBXNativeTarget "GmailDesktop" */;
+			buildConfigurationList = C0BDD7E6408CE750647092CB /* Build configuration list for PBXNativeTarget "GmailDesktop" */;
 			buildPhases = (
-				4975B2C1C9F5BD2BA1688E14 /* Sources */,
-				D48F6FB441D5E9B93C24EF43 /* Frameworks */,
-				0DD28987D0B59695085B0BA2 /* Resources */,
+				3259732FCC29195885F1FF40 /* Sources */,
+				610352C8584ACCEE2FD8293F /* Frameworks */,
+				E1EAEBDBC119471D87423F69 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -95,19 +105,19 @@
 			);
 			name = GmailDesktop;
 			productName = GmailDesktop;
-			productReference = 55737FD6A6E0D0C78AC64BCE /* GmailDesktop.app */;
+			productReference = 5872475C2B3A856679510874 /* GmailDesktop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AEAED01B5ED5D9221A14093F /* Project object */ = {
+		E64864E08A02B2634D53197C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = B05B9B55D32313DA8797D030 /* Build configuration list for PBXProject "GmailDesktop" */;
+			buildConfigurationList = 04C19B8883915C7F48D72493 /* Build configuration list for PBXProject "GmailDesktop" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,45 +125,47 @@
 				en,
 				Base,
 			);
-			mainGroup = F961E0A2DFE639F4A1258BCA;
+			mainGroup = 7ADEDDAA86A81F2298874C67;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 97695A15576D499EF7260258 /* Products */;
+			productRefGroup = 7E9AF2754019C75C1C3A5402 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21EAF8B8C88D386F58EB0595 /* GmailDesktop */,
+				0AEFE88CC26CEA6486109655 /* GmailDesktop */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0DD28987D0B59695085B0BA2 /* Resources */ = {
+		E1EAEBDBC119471D87423F69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FEC891881DC430B6F80E02D /* Assets.xcassets in Resources */,
+				32CA428DCDCBE7E0A9BD44FE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4975B2C1C9F5BD2BA1688E14 /* Sources */ = {
+		3259732FCC29195885F1FF40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				966160C38FFB1BB8231A2093 /* GmailDesktopApp.swift in Sources */,
-				D4627C6AFB78407075D2D141 /* ContentView.swift in Sources */,
-				5103A84CE1C7C958D21729AA /* GmailWebView.swift in Sources */,
-				0287D725393F0FE9FBF61243 /* NotificationManager.swift in Sources */,
+				F0A4748A461C7CD05459DF5A /* GmailDesktopApp.swift in Sources */,
+				4ADA5F69C18B05A2A9D9FE5E /* ContentView.swift in Sources */,
+				5031B5105595A2326CF7C8F4 /* GmailWebView.swift in Sources */,
+				C7D544A40B77EAFF1A406064 /* NotificationManager.swift in Sources */,
+				1814F6B1BE150B31BBE4E865 /* BluetoothManager.swift in Sources */,
+				AB7A973906E471AD5B2CD886 /* AppState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0AF7A78C122E73D1E3A657D5 /* Debug */ = {
+		1481BE10D2B73640B83B1C89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -168,9 +180,9 @@
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
-			name = Debug;
+			name = Release;
 		};
-		9B9E6C9B86F8FAA1402382CB /* Release */ = {
+		25B5B4AED3CB008829B31ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +236,24 @@
 			};
 			name = Release;
 		};
-		B75FEA02DEB91A9D8CC1288B /* Debug */ = {
+		50F9576A7FF33DF6776F1554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.GmailDesktop;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D47B34CA65CEC1EF6A2A905E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,45 +314,28 @@
 			};
 			name = Debug;
 		};
-		E39181B569539428CADF3AE5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alex.GmailDesktop;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E489B37BABE0918AC19360 /* Build configuration list for PBXNativeTarget "GmailDesktop" */ = {
+		04C19B8883915C7F48D72493 /* Build configuration list for PBXProject "GmailDesktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E39181B569539428CADF3AE5 /* Release */,
-				0AF7A78C122E73D1E3A657D5 /* Debug */,
+				D47B34CA65CEC1EF6A2A905E /* Debug */,
+				25B5B4AED3CB008829B31ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B05B9B55D32313DA8797D030 /* Build configuration list for PBXProject "GmailDesktop" */ = {
+		C0BDD7E6408CE750647092CB /* Build configuration list for PBXNativeTarget "GmailDesktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B75FEA02DEB91A9D8CC1288B /* Debug */,
-				9B9E6C9B86F8FAA1402382CB /* Release */,
+				1481BE10D2B73640B83B1C89 /* Release */,
+				50F9576A7FF33DF6776F1554 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AEAED01B5ED5D9221A14093F /* Project object */;
+	rootObject = E64864E08A02B2634D53197C /* Project object */;
 }

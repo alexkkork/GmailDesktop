@@ -21,7 +21,9 @@ swift_files = [
   "GmailDesktopApp.swift",
   "ContentView.swift",
   "GmailWebView.swift",
-  "NotificationManager.swift"
+  "NotificationManager.swift",
+  "BluetoothManager.swift",
+  "AppState.swift"
 ]
 
 swift_refs = swift_files.map { |path| main_group.new_file(path) }
@@ -34,6 +36,8 @@ end
 frameworks_group = project.frameworks_group
 webkit_ref = frameworks_group.new_file("System/Library/Frameworks/WebKit.framework", :sdk_root)
 app_target.frameworks_build_phase.add_file_reference(webkit_ref, true)
+bluetooth_ref = frameworks_group.new_file("System/Library/Frameworks/CoreBluetooth.framework", :sdk_root)
+app_target.frameworks_build_phase.add_file_reference(bluetooth_ref, true)
 
 # Add Assets.xcassets to Resources
 assets_path = "Assets.xcassets"

@@ -22,5 +22,7 @@
     <string>$(MACOSX_DEPLOYMENT_TARGET)</string>
     <key>NSHumanReadableCopyright</key>
     <string>Copyright © 2025</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This app scans nearby Bluetooth devices to let you connect from the sidebar.</string>
 </dict>
 </plist>
